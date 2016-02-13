@@ -1,6 +1,6 @@
 [README.md](README.md) -> campaign.md
 
-**Campaigns - send messages to multiple numbers in file**
+**Send messages to multiple numbers in file**
 ----
   Sends message to all  numbers in a file
 
