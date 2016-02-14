@@ -33,6 +33,7 @@
    **Optional**
    
    `SendAt=[string]` Time to schedule this message for in YYYY-MM-DD HH:MM:SS format
+   `IgnoreNight=[boolean]` If set to true, NightStartAt, NightEndAt settings will be ignored. 
    
 * **Data Params**
 

@@ -167,12 +167,14 @@
    `AuthToken[string]`
    `Username=[string]` Must be alphanumeric only
    `Passwd=[string]` Greater than 5 chars
-   `Permissions=[[]string]` Array of permissions granted to this user. Possible permissions can be obtained from /user/permissions endpoint
-   
+   `Permissions=[[]string]` Array of permissions granted to this user. Possible permissions can be obtained from /users/permissions endpoint
+
    **Optional**
    
    `Name=[string]`
    `Email=[string]`
+   `NightStartAt=[string]` Time in 24 hour format: HH:MM:SS.
+   `NightEndAt=[string]` Time. Messages aren't sent between NightStartAt and NightEndAt
    
 * **Data Params**
 

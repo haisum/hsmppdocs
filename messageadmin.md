@@ -24,3 +24,15 @@ Last N messages, Messages sent on date Y etc
  	Src=
  	Conn=
  	Enc=
+
+ Stop all
+
+ Stop messages
+ 
+ Stop campaign
+ 
+ Retry messages
+
+ Retry campaign
+
+ Retry failed

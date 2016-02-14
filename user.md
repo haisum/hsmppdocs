@@ -72,6 +72,8 @@
    `Passwd=[string]` Greater than 5 chars
    `Name=[string]`
    `Email=[string]`
+   `NightStartAt=[string]` Time in 24 hour format: HH:MM:SS
+   `NightEndAt=[string]` Time in 24 hour format: HH:MM:SS
 
 * **Data Params**
 
