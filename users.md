@@ -44,53 +44,6 @@
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** `{ Errors : ["You're not authorized to perform this action."], Request : {...} }`
 
-**Suspend users**
-----
-  Suspend users.
-
-* **URL**
-
-  /users/suspend
-
-* **Permission**
-
-  `UsersSuspend`
-
-* **Method:**
-
-  `POST`
-  
-* **URL Params**
-  
-  **Required:**
-  
-  `AuthToken[string]`
-  `Usernames[[]string]` 
-
-* **Data Params**
-
-  None
-
-* **Success Response:**
-
-  * **Code:** 200 <br />
-    **Content:** `{ Errors : [], Request: {"URL": "/users/suspend", Usernames: ["haisum", "max"]}} }`
- 
-* **Error Response:**
-
-  * **Code:** 500 INTERNAL SERVER ERROR <br />
-    **Content:** `{ Errors : ["Internal server error. See logs for details."], Request : {...} }`
-
-  OR
-
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ Errors : ["You're not authorized to perform this action."], Request : {...} }`
-
-  OR
-
-  * **Code:** 400 BAD REQUEST <br />
-    **Content:** `{ Errors : ["User haisum doesn't exist."], Request : {...} }`
-
 **List users**
 ----
   List all users.

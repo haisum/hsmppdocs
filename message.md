@@ -91,7 +91,7 @@
   OR
 
   ```shell
-  curl -k -X POST --data-urlencode "Msg=Scheduled Hello world" --data-urlencode "Src=+97153434" --data-urlencode "Src=+97153434"  --data-urlencode "Priority=1" --data-urlencode "Dst=+971" --data-urlencode "Enc=ucs" https://localhost:8443/api/message
+  curl -k -X POST --data-urlencode "Msg=Scheduled Hello world" --data-urlencode "Src=+97153434"  --data-urlencode "Priority=1" --data-urlencode "Dst=+971" --data-urlencode "Enc=ucs" https://localhost:8443/api/message
   ```
   
 **Check message status**
