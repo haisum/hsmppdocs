@@ -3,6 +3,8 @@
 API Reference
 ---------------
 
+This is obsolete document, need to update.
+
 - [Single message operations (/message endpoint)](message.md)
 	- [Send message to a number](message.md#send-message-to-a-number)
 	- [Check message status](message.md#check-message-status)

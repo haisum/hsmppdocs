@@ -23,6 +23,7 @@ Last N messages, Messages sent on date Y etc
  	Dst=
  	Src=
  	Conn=
+ 	Group=
  	Enc=
 
  Stop all
@@ -36,3 +37,4 @@ Last N messages, Messages sent on date Y etc
  Retry campaign
 
  Retry failed
+ 
